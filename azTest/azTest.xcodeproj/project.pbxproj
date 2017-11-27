@@ -11,6 +11,7 @@
 		3D476B141FBC3879002C8222 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D476B131FBC3879002C8222 /* CustomButton.swift */; };
 		3D56B5631FBA8064004BDA05 /* CustomMadeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56B5621FBA8064004BDA05 /* CustomMadeTabBarController.swift */; };
 		3D56B5651FBA887C004BDA05 /* BaseCustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56B5641FBA887C004BDA05 /* BaseCustomTabBarViewController.swift */; };
+		3D58E7D61FCBB3DA0063BE23 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D58E7D51FCBB3DA0063BE23 /* LoginViewController.swift */; };
 		3D88B97E1FB5399E0013A6BF /* AZAppTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D88B97D1FB5399E0013A6BF /* AZAppTools.swift */; };
 		3D88B9801FB934560013A6BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D88B97F1FB934560013A6BF /* HomeViewController.swift */; };
 		3D88B9821FB95FE50013A6BF /* SystemHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D88B9811FB95FE50013A6BF /* SystemHomeViewController.swift */; };
@@ -62,6 +63,7 @@
 		3D476B131FBC3879002C8222 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		3D56B5621FBA8064004BDA05 /* CustomMadeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMadeTabBarController.swift; sourceTree = "<group>"; };
 		3D56B5641FBA887C004BDA05 /* BaseCustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCustomTabBarViewController.swift; sourceTree = "<group>"; };
+		3D58E7D51FCBB3DA0063BE23 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3D88B97D1FB5399E0013A6BF /* AZAppTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZAppTools.swift; sourceTree = "<group>"; };
 		3D88B97F1FB934560013A6BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3D88B9811FB95FE50013A6BF /* SystemHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemHomeViewController.swift; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 		3DC20E6D1FB2D0490024DD42 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				3D58E7D51FCBB3DA0063BE23 /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -489,6 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D58E7D61FCBB3DA0063BE23 /* LoginViewController.swift in Sources */,
 				3D476B141FBC3879002C8222 /* CustomButton.swift in Sources */,
 				3D88B9841FB96BA40013A6BF /* ManagerViewController.swift in Sources */,
 				3DC20EA41FB2D1960024DD42 /* Reachability.m in Sources */,
@@ -687,7 +691,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ams.azTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/dyg/Desktop/aLIEz/Test/test1/azTest/azTest/Apptools/Az_Bridging_Header.h;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/dyg/Desktop/aLIEz/AzGithubDesk/test01/azTest/azTest/Apptools/Az_Bridging_Header.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -704,7 +708,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ams.azTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/dyg/Desktop/aLIEz/Test/test1/azTest/azTest/Apptools/Az_Bridging_Header.h;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/dyg/Desktop/aLIEz/AzGithubDesk/test01/azTest/azTest/Apptools/Az_Bridging_Header.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
