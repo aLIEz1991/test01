@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34859A575AD93ECDDFF31FD0 /* Pods_azTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA36F4B36BFC5BE5B1F30DFE /* Pods_azTest.framework */; };
 		3D476B121FBC039B002C8222 /* CustomMadeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D476B111FBC039B002C8222 /* CustomMadeBar.swift */; };
 		3D476B141FBC3879002C8222 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D476B131FBC3879002C8222 /* CustomButton.swift */; };
 		3D56B5631FBA8064004BDA05 /* CustomMadeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56B5621FBA8064004BDA05 /* CustomMadeTabBarController.swift */; };
@@ -23,19 +24,7 @@
 		3DC20E351FB2CAC30024DD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC20E341FB2CAC30024DD42 /* Assets.xcassets */; };
 		3DC20E381FB2CAC30024DD42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC20E361FB2CAC30024DD42 /* LaunchScreen.storyboard */; };
 		3DC20E431FB2CAC40024DD42 /* azTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E421FB2CAC40024DD42 /* azTestTests.swift */; };
-		3DC20E4E1FB2CAC40024DD42 /* azTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E4D1FB2CAC40024DD42 /* azTestUITests.swift */; };
 		3DC20E6C1FB2CD130024DD42 /* AZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E6B1FB2CD130024DD42 /* AZBaseViewController.swift */; };
-		3DC20E9B1FB2D1960024DD42 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E831FB2D1960024DD42 /* AFHTTPRequestOperation.m */; };
-		3DC20E9C1FB2D1960024DD42 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E851FB2D1960024DD42 /* AFHTTPRequestOperationManager.m */; };
-		3DC20E9D1FB2D1960024DD42 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E871FB2D1960024DD42 /* AFHTTPSessionManager.m */; };
-		3DC20E9E1FB2D1960024DD42 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E8A1FB2D1960024DD42 /* AFNetworkReachabilityManager.m */; };
-		3DC20E9F1FB2D1960024DD42 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E8C1FB2D1960024DD42 /* AFSecurityPolicy.m */; };
-		3DC20EA01FB2D1960024DD42 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E8E1FB2D1960024DD42 /* AFURLConnectionOperation.m */; };
-		3DC20EA11FB2D1960024DD42 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E901FB2D1960024DD42 /* AFURLRequestSerialization.m */; };
-		3DC20EA21FB2D1960024DD42 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E921FB2D1960024DD42 /* AFURLResponseSerialization.m */; };
-		3DC20EA31FB2D1960024DD42 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E941FB2D1960024DD42 /* AFURLSessionManager.m */; };
-		3DC20EA41FB2D1960024DD42 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E971FB2D1960024DD42 /* Reachability.m */; };
-		3DC20EA51FB2D1960024DD42 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20E9A1FB2D1960024DD42 /* MBProgressHUD.m */; };
 		3DC20EA91FB2D1EC0024DD42 /* NSLayoutConstraint+SSLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20EA81FB2D1EC0024DD42 /* NSLayoutConstraint+SSLayout.m */; };
 		3DC20EAD1FB2DA900024DD42 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20EAC1FB2DA900024DD42 /* Const.swift */; };
 		3DC20EBB1FB3F1D70024DD42 /* SystemBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20EBA1FB3F1D70024DD42 /* SystemBaseViewController.swift */; };
@@ -81,32 +70,7 @@
 		3DC20E421FB2CAC40024DD42 /* azTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = azTestTests.swift; sourceTree = "<group>"; };
 		3DC20E441FB2CAC40024DD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DC20E491FB2CAC40024DD42 /* azTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = azTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DC20E4D1FB2CAC40024DD42 /* azTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = azTestUITests.swift; sourceTree = "<group>"; };
-		3DC20E4F1FB2CAC40024DD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DC20E6B1FB2CD130024DD42 /* AZBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZBaseViewController.swift; sourceTree = "<group>"; };
-		3DC20E821FB2D1960024DD42 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		3DC20E831FB2D1960024DD42 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		3DC20E841FB2D1960024DD42 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		3DC20E851FB2D1960024DD42 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		3DC20E861FB2D1960024DD42 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		3DC20E871FB2D1960024DD42 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		3DC20E881FB2D1960024DD42 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		3DC20E891FB2D1960024DD42 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		3DC20E8A1FB2D1960024DD42 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		3DC20E8B1FB2D1960024DD42 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		3DC20E8C1FB2D1960024DD42 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		3DC20E8D1FB2D1960024DD42 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		3DC20E8E1FB2D1960024DD42 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		3DC20E8F1FB2D1960024DD42 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		3DC20E901FB2D1960024DD42 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		3DC20E911FB2D1960024DD42 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		3DC20E921FB2D1960024DD42 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		3DC20E931FB2D1960024DD42 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		3DC20E941FB2D1960024DD42 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		3DC20E961FB2D1960024DD42 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		3DC20E971FB2D1960024DD42 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		3DC20E991FB2D1960024DD42 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		3DC20E9A1FB2D1960024DD42 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		3DC20EA71FB2D1EC0024DD42 /* NSLayoutConstraint+SSLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+SSLayout.h"; sourceTree = "<group>"; };
 		3DC20EA81FB2D1EC0024DD42 /* NSLayoutConstraint+SSLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+SSLayout.m"; sourceTree = "<group>"; };
 		3DC20EAB1FB2D70D0024DD42 /* Az_Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Az_Bridging_Header.h; sourceTree = "<group>"; };
@@ -120,6 +84,9 @@
 		3DC20EB61FB2DF170024DD42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3DC20EB71FB2DF170024DD42 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		3DC20EBA1FB3F1D70024DD42 /* SystemBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemBaseViewController.swift; sourceTree = "<group>"; };
+		4DAD68E158E6E4459200DF4D /* Pods-azTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-azTest/Pods-azTest.debug.xcconfig"; sourceTree = "<group>"; };
+		BA36F4B36BFC5BE5B1F30DFE /* Pods_azTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_azTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E532DABAAE6421197487F9 /* Pods-azTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-azTest/Pods-azTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34859A575AD93ECDDFF31FD0 /* Pods_azTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,9 +131,9 @@
 			children = (
 				3DC20E2C1FB2CAC30024DD42 /* azTest */,
 				3DC20E411FB2CAC40024DD42 /* azTestTests */,
-				3DC20E4C1FB2CAC40024DD42 /* azTestUITests */,
 				3DC20E2B1FB2CAC30024DD42 /* Products */,
 				3DC20EAF1FB2DF160024DD42 /* Frameworks */,
+				FDA498A6EE928669B8D01976 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,15 +174,6 @@
 				3DC20E441FB2CAC40024DD42 /* Info.plist */,
 			);
 			path = azTestTests;
-			sourceTree = "<group>";
-		};
-		3DC20E4C1FB2CAC40024DD42 /* azTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3DC20E4D1FB2CAC40024DD42 /* azTestUITests.swift */,
-				3DC20E4F1FB2CAC40024DD42 /* Info.plist */,
-			);
-			path = azTestUITests;
 			sourceTree = "<group>";
 		};
 		3DC20E661FB2CC930024DD42 /* Statistics */ = {
@@ -272,55 +231,8 @@
 			isa = PBXGroup;
 			children = (
 				3DC20EA61FB2D1EC0024DD42 /* SSLayout */,
-				3DC20E811FB2D1960024DD42 /* AFNetworking */,
-				3DC20E981FB2D1960024DD42 /* MBProgressHUD */,
-				3DC20E951FB2D1960024DD42 /* Reachability */,
 			);
 			path = ThirdLib;
-			sourceTree = "<group>";
-		};
-		3DC20E811FB2D1960024DD42 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				3DC20E821FB2D1960024DD42 /* AFHTTPRequestOperation.h */,
-				3DC20E831FB2D1960024DD42 /* AFHTTPRequestOperation.m */,
-				3DC20E841FB2D1960024DD42 /* AFHTTPRequestOperationManager.h */,
-				3DC20E851FB2D1960024DD42 /* AFHTTPRequestOperationManager.m */,
-				3DC20E861FB2D1960024DD42 /* AFHTTPSessionManager.h */,
-				3DC20E871FB2D1960024DD42 /* AFHTTPSessionManager.m */,
-				3DC20E881FB2D1960024DD42 /* AFNetworking.h */,
-				3DC20E891FB2D1960024DD42 /* AFNetworkReachabilityManager.h */,
-				3DC20E8A1FB2D1960024DD42 /* AFNetworkReachabilityManager.m */,
-				3DC20E8B1FB2D1960024DD42 /* AFSecurityPolicy.h */,
-				3DC20E8C1FB2D1960024DD42 /* AFSecurityPolicy.m */,
-				3DC20E8D1FB2D1960024DD42 /* AFURLConnectionOperation.h */,
-				3DC20E8E1FB2D1960024DD42 /* AFURLConnectionOperation.m */,
-				3DC20E8F1FB2D1960024DD42 /* AFURLRequestSerialization.h */,
-				3DC20E901FB2D1960024DD42 /* AFURLRequestSerialization.m */,
-				3DC20E911FB2D1960024DD42 /* AFURLResponseSerialization.h */,
-				3DC20E921FB2D1960024DD42 /* AFURLResponseSerialization.m */,
-				3DC20E931FB2D1960024DD42 /* AFURLSessionManager.h */,
-				3DC20E941FB2D1960024DD42 /* AFURLSessionManager.m */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		3DC20E951FB2D1960024DD42 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				3DC20E961FB2D1960024DD42 /* Reachability.h */,
-				3DC20E971FB2D1960024DD42 /* Reachability.m */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
-		3DC20E981FB2D1960024DD42 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				3DC20E991FB2D1960024DD42 /* MBProgressHUD.h */,
-				3DC20E9A1FB2D1960024DD42 /* MBProgressHUD.m */,
-			);
-			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		3DC20EA61FB2D1EC0024DD42 /* SSLayout */ = {
@@ -354,8 +266,18 @@
 				3DC20EB41FB2DF160024DD42 /* Foundation.framework */,
 				3DC20EB31FB2DF160024DD42 /* libc++abi.tbd */,
 				3DC20EB61FB2DF170024DD42 /* UIKit.framework */,
+				BA36F4B36BFC5BE5B1F30DFE /* Pods_azTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDA498A6EE928669B8D01976 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DAD68E158E6E4459200DF4D /* Pods-azTest.debug.xcconfig */,
+				E0E532DABAAE6421197487F9 /* Pods-azTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DC20E521FB2CAC40024DD42 /* Build configuration list for PBXNativeTarget "azTest" */;
 			buildPhases = (
+				6D3A210ACAB62615EA00B185 /* [CP] Check Pods Manifest.lock */,
 				3DC20E261FB2CAC30024DD42 /* Sources */,
 				3DC20E271FB2CAC30024DD42 /* Frameworks */,
 				3DC20E281FB2CAC30024DD42 /* Resources */,
+				7DC58A96DA1E4A2876321956 /* [CP] Embed Pods Frameworks */,
+				BB7C87C892E5BC0EE2298571 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -487,6 +412,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D3A210ACAB62615EA00B185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-azTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DC58A96DA1E4A2876321956 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-azTest/Pods-azTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-azTest/Pods-azTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB7C87C892E5BC0EE2298571 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-azTest/Pods-azTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3DC20E261FB2CAC30024DD42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -495,29 +480,18 @@
 				3D58E7D61FCBB3DA0063BE23 /* LoginViewController.swift in Sources */,
 				3D476B141FBC3879002C8222 /* CustomButton.swift in Sources */,
 				3D88B9841FB96BA40013A6BF /* ManagerViewController.swift in Sources */,
-				3DC20EA41FB2D1960024DD42 /* Reachability.m in Sources */,
-				3DC20E9B1FB2D1960024DD42 /* AFHTTPRequestOperation.m in Sources */,
 				3D88B9821FB95FE50013A6BF /* SystemHomeViewController.swift in Sources */,
 				3D56B5651FBA887C004BDA05 /* BaseCustomTabBarViewController.swift in Sources */,
 				3D88B9801FB934560013A6BF /* HomeViewController.swift in Sources */,
 				3D88B9861FB96BBC0013A6BF /* StatisticsViewController.swift in Sources */,
 				3DC20EBB1FB3F1D70024DD42 /* SystemBaseViewController.swift in Sources */,
-				3DC20E9C1FB2D1960024DD42 /* AFHTTPRequestOperationManager.m in Sources */,
-				3DC20E9E1FB2D1960024DD42 /* AFNetworkReachabilityManager.m in Sources */,
-				3DC20EA21FB2D1960024DD42 /* AFURLResponseSerialization.m in Sources */,
-				3DC20EA01FB2D1960024DD42 /* AFURLConnectionOperation.m in Sources */,
 				3D88B97E1FB5399E0013A6BF /* AZAppTools.swift in Sources */,
-				3DC20E9F1FB2D1960024DD42 /* AFSecurityPolicy.m in Sources */,
-				3DC20E9D1FB2D1960024DD42 /* AFHTTPSessionManager.m in Sources */,
-				3DC20EA11FB2D1960024DD42 /* AFURLRequestSerialization.m in Sources */,
-				3DC20EA31FB2D1960024DD42 /* AFURLSessionManager.m in Sources */,
 				3D476B121FBC039B002C8222 /* CustomMadeBar.swift in Sources */,
 				3DC20E6C1FB2CD130024DD42 /* AZBaseViewController.swift in Sources */,
 				3D56B5631FBA8064004BDA05 /* CustomMadeTabBarController.swift in Sources */,
 				3DC20E2E1FB2CAC30024DD42 /* AppDelegate.swift in Sources */,
 				3DC20EAD1FB2DA900024DD42 /* Const.swift in Sources */,
 				3D88B9881FB96BCD0013A6BF /* PersonalViewController.swift in Sources */,
-				3DC20EA51FB2D1960024DD42 /* MBProgressHUD.m in Sources */,
 				3DC20EA91FB2D1EC0024DD42 /* NSLayoutConstraint+SSLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,7 +508,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC20E4E1FB2CAC40024DD42 /* azTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,10 +655,12 @@
 		};
 		3DC20E531FB2CAC40024DD42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DAD68E158E6E4459200DF4D /* Pods-azTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3FC958NM7;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = azTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -699,10 +674,12 @@
 		};
 		3DC20E541FB2CAC40024DD42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E532DABAAE6421197487F9 /* Pods-azTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3FC958NM7;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = azTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

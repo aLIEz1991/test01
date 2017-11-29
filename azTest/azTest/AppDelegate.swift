@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         if 1 == 1 {
 
-            self.window?.rootViewController = CustomMadeTabBarController()
+            self.window?.rootViewController = LoginViewController()
 
         } else {
         

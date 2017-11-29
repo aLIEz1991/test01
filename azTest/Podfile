@@ -1,0 +1,7 @@
+platform:ios, '8.0'
+ use_frameworks!
+ target 'azTest' do 
+ pod 'ReachabilitySwift'
+ pod 'ReactiveCocoa', '~> 7.0'
+end
+
