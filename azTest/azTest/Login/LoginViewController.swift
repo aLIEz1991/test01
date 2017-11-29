@@ -29,7 +29,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         
         initLoginView()
         
-        
         //创建合法信号
         userTextField.reactive.continuousTextValues.map() {
             
