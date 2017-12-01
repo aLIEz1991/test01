@@ -28,6 +28,10 @@
 		3DC20EA91FB2D1EC0024DD42 /* NSLayoutConstraint+SSLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20EA81FB2D1EC0024DD42 /* NSLayoutConstraint+SSLayout.m */; };
 		3DC20EAD1FB2DA900024DD42 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20EAC1FB2DA900024DD42 /* Const.swift */; };
 		3DC20EBB1FB3F1D70024DD42 /* SystemBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20EBA1FB3F1D70024DD42 /* SystemBaseViewController.swift */; };
+		3DE4CBB41FCFB7E2009EE4D5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4CBB31FCFB7E2009EE4D5 /* LoginViewModel.swift */; };
+		3DE4CBB81FCFB81E009EE4D5 /* AZBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4CBB71FCFB81E009EE4D5 /* AZBaseViewModel.swift */; };
+		3DE4CBBA1FCFB82C009EE4D5 /* AZBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4CBB91FCFB82C009EE4D5 /* AZBaseModel.swift */; };
+		3DE4CBBC1FCFECA9009EE4D5 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4CBBB1FCFECA9009EE4D5 /* LoginModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +88,10 @@
 		3DC20EB61FB2DF170024DD42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3DC20EB71FB2DF170024DD42 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		3DC20EBA1FB3F1D70024DD42 /* SystemBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemBaseViewController.swift; sourceTree = "<group>"; };
+		3DE4CBB31FCFB7E2009EE4D5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		3DE4CBB71FCFB81E009EE4D5 /* AZBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZBaseViewModel.swift; sourceTree = "<group>"; };
+		3DE4CBB91FCFB82C009EE4D5 /* AZBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZBaseModel.swift; sourceTree = "<group>"; };
+		3DE4CBBB1FCFECA9009EE4D5 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		4DAD68E158E6E4459200DF4D /* Pods-azTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-azTest/Pods-azTest.debug.xcconfig"; sourceTree = "<group>"; };
 		BA36F4B36BFC5BE5B1F30DFE /* Pods_azTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_azTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E532DABAAE6421197487F9 /* Pods-azTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-azTest/Pods-azTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -213,6 +221,8 @@
 			isa = PBXGroup;
 			children = (
 				3DC20E6B1FB2CD130024DD42 /* AZBaseViewController.swift */,
+				3DE4CBB71FCFB81E009EE4D5 /* AZBaseViewModel.swift */,
+				3DE4CBB91FCFB82C009EE4D5 /* AZBaseModel.swift */,
 				3DC20EBA1FB3F1D70024DD42 /* SystemBaseViewController.swift */,
 				3D56B55D1FBA7ED7004BDA05 /* CustomMadeTabBar */,
 			);
@@ -223,6 +233,8 @@
 			isa = PBXGroup;
 			children = (
 				3D58E7D51FCBB3DA0063BE23 /* LoginViewController.swift */,
+				3DE4CBB31FCFB7E2009EE4D5 /* LoginViewModel.swift */,
+				3DE4CBBB1FCFECA9009EE4D5 /* LoginModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -438,6 +450,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-azTest/Pods-azTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
@@ -445,6 +458,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
@@ -482,7 +496,9 @@
 				3D88B9841FB96BA40013A6BF /* ManagerViewController.swift in Sources */,
 				3D88B9821FB95FE50013A6BF /* SystemHomeViewController.swift in Sources */,
 				3D56B5651FBA887C004BDA05 /* BaseCustomTabBarViewController.swift in Sources */,
+				3DE4CBBC1FCFECA9009EE4D5 /* LoginModel.swift in Sources */,
 				3D88B9801FB934560013A6BF /* HomeViewController.swift in Sources */,
+				3DE4CBB81FCFB81E009EE4D5 /* AZBaseViewModel.swift in Sources */,
 				3D88B9861FB96BBC0013A6BF /* StatisticsViewController.swift in Sources */,
 				3DC20EBB1FB3F1D70024DD42 /* SystemBaseViewController.swift in Sources */,
 				3D88B97E1FB5399E0013A6BF /* AZAppTools.swift in Sources */,
@@ -492,6 +508,8 @@
 				3DC20E2E1FB2CAC30024DD42 /* AppDelegate.swift in Sources */,
 				3DC20EAD1FB2DA900024DD42 /* Const.swift in Sources */,
 				3D88B9881FB96BCD0013A6BF /* PersonalViewController.swift in Sources */,
+				3DE4CBBA1FCFB82C009EE4D5 /* AZBaseModel.swift in Sources */,
+				3DE4CBB41FCFB7E2009EE4D5 /* LoginViewModel.swift in Sources */,
 				3DC20EA91FB2D1EC0024DD42 /* NSLayoutConstraint+SSLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

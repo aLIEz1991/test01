@@ -32,7 +32,7 @@ let NavHeight : CGFloat = isIphoneX ? 88 : 64
 let TabHeight : CGFloat = isIphoneX ? 49 + 34 : 49
 
 // 左右边距
-let Margin = 10
+let Margin = 10.0
 // 行高
 let LineHeight = 44
 
