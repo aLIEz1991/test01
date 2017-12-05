@@ -18,6 +18,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         return LoginViewModel()
     }()
     
+    //定义控件
     var userTextField = UITextField()
     var pwdTextField = UITextField()
     var signInBtn = UIButton()
@@ -48,14 +49,18 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         loginViewModel.loginAction.apply(()).startWithResult { (result) in
             
             switch result{
+                
             case let .success(value):
                 self.loginViewModel.loginModel = value
                 
+                print (value.first?.token ?? "")
+                
+                print("go on! fight!")
+                
             case let .failure(error):
+                
                 print(error)
                 
-            default:
-                break
             }
             
         }

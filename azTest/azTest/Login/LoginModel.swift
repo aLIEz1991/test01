@@ -8,9 +8,18 @@
 
 import UIKit
 
-class LoginModel: AZBaseModel {
+class LoginModel: NSObject {
 
-    var user:String = ""//帐号
-    var pwd:String = ""//密码
+    var token : String = ""//token
+    
+    //赋值转化成model
+    init(dic:[String:Any]) {
+        token = dic["token"] as? String ?? ""
+    }
+    
+    // 字典转Model，Model中没有的key重写不抛出异常
+    override func setValue(_ value: Any?, forUndefinedKey key: String) {
+        
+    }
     
 }

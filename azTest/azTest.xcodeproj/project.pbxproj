@@ -28,6 +28,8 @@
 		3DC20EA91FB2D1EC0024DD42 /* NSLayoutConstraint+SSLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20EA81FB2D1EC0024DD42 /* NSLayoutConstraint+SSLayout.m */; };
 		3DC20EAD1FB2DA900024DD42 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20EAC1FB2DA900024DD42 /* Const.swift */; };
 		3DC20EBB1FB3F1D70024DD42 /* SystemBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC20EBA1FB3F1D70024DD42 /* SystemBaseViewController.swift */; };
+		3DD0DC7F1FD649A700EA233E /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD0DC7E1FD649A700EA233E /* StatisticsViewModel.swift */; };
+		3DD0DC811FD649C600EA233E /* StatisticsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD0DC801FD649C600EA233E /* StatisticsModel.swift */; };
 		3DE4CBB41FCFB7E2009EE4D5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4CBB31FCFB7E2009EE4D5 /* LoginViewModel.swift */; };
 		3DE4CBB81FCFB81E009EE4D5 /* AZBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4CBB71FCFB81E009EE4D5 /* AZBaseViewModel.swift */; };
 		3DE4CBBA1FCFB82C009EE4D5 /* AZBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE4CBB91FCFB82C009EE4D5 /* AZBaseModel.swift */; };
@@ -88,6 +90,8 @@
 		3DC20EB61FB2DF170024DD42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3DC20EB71FB2DF170024DD42 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		3DC20EBA1FB3F1D70024DD42 /* SystemBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemBaseViewController.swift; sourceTree = "<group>"; };
+		3DD0DC7E1FD649A700EA233E /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		3DD0DC801FD649C600EA233E /* StatisticsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsModel.swift; sourceTree = "<group>"; };
 		3DE4CBB31FCFB7E2009EE4D5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		3DE4CBB71FCFB81E009EE4D5 /* AZBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZBaseViewModel.swift; sourceTree = "<group>"; };
 		3DE4CBB91FCFB82C009EE4D5 /* AZBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZBaseModel.swift; sourceTree = "<group>"; };
@@ -188,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				3D88B9851FB96BBC0013A6BF /* StatisticsViewController.swift */,
+				3DD0DC7E1FD649A700EA233E /* StatisticsViewModel.swift */,
+				3DD0DC801FD649C600EA233E /* StatisticsModel.swift */,
 			);
 			path = Statistics;
 			sourceTree = "<group>";
@@ -507,7 +513,9 @@
 				3D56B5631FBA8064004BDA05 /* CustomMadeTabBarController.swift in Sources */,
 				3DC20E2E1FB2CAC30024DD42 /* AppDelegate.swift in Sources */,
 				3DC20EAD1FB2DA900024DD42 /* Const.swift in Sources */,
+				3DD0DC811FD649C600EA233E /* StatisticsModel.swift in Sources */,
 				3D88B9881FB96BCD0013A6BF /* PersonalViewController.swift in Sources */,
+				3DD0DC7F1FD649A700EA233E /* StatisticsViewModel.swift in Sources */,
 				3DE4CBBA1FCFB82C009EE4D5 /* AZBaseModel.swift in Sources */,
 				3DE4CBB41FCFB7E2009EE4D5 /* LoginViewModel.swift in Sources */,
 				3DC20EA91FB2D1EC0024DD42 /* NSLayoutConstraint+SSLayout.m in Sources */,
@@ -685,6 +693,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ams.azTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = /Users/dyg/Desktop/aLIEz/AzGithubDesk/test01/azTest/azTest/Apptools/Az_Bridging_Header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -704,6 +713,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ams.azTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = /Users/dyg/Desktop/aLIEz/AzGithubDesk/test01/azTest/azTest/Apptools/Az_Bridging_Header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

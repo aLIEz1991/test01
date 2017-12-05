@@ -13,11 +13,11 @@ import Result
 
 class AZBaseModel: NSObject {
 
-    init(dic:[String:Any]) {
-        super.init()
-        self.setValuesForKeys(dic)// 字典转Model便捷方法
-    }
-    
+//    init(dic:[String:Any]) {
+//        super.init()
+//        self.setValuesForKeys(dic)// 字典转Model便捷方法
+//    }
+//    
     // 字典转Model，Model中没有的key重写不抛出异常
     override func setValue(_ value: Any?, forUndefinedKey key: String) {
         
